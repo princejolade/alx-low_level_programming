@@ -1,0 +1,25 @@
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
+
+/**
+ * main - Entry point of the program
+ *
+ * Description: "Prints the alphabet letters in lower case"
+ *
+ * Return: ALways 0 (Success)
+ */
+int main(void)
+{
+	int count = 97 + 26,  LAST_LETTER = 97;
+
+	do {
+		putchar(--count);
+
+	} while (count > LAST_LETTER);
+
+	putchar('\n');
+
+	return (0);
+
+}
