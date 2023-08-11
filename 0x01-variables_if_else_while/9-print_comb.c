@@ -17,8 +17,14 @@ int main(void)
 	{
 
 		putchar(count);
-		putchar(44);
-		putchar(32);
+
+		if (count != 57)
+		{
+
+			putchar(44);
+			putchar(32);
+
+		}
 	}
 
 	putchar('\n');
